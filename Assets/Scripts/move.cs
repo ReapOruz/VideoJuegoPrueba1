@@ -20,7 +20,7 @@ public class move : MonoBehaviour
     {
 
         rb = GetComponent<Rigidbody2D>();
-        forceMultiplayer = 4f;
+        forceMultiplayer = 2.5f;
         jumpMultiplayer = 7f;
 
     }
@@ -38,15 +38,10 @@ public class move : MonoBehaviour
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
-        else
+        if (movX > 0)
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
         }
-
-        //transform.position += new Vector3(movX, 0f, 0f) * Time.deltaTime * 4;
-
-        /*Vector2 forceVector = new Vector2(movX, 0f) * forceMultiplayer;
-        rb.AddForce(forceVector);*/
 
         if (flag)
         {
