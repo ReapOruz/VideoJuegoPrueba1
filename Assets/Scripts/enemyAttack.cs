@@ -67,7 +67,7 @@ public class enemyAttack : MonoBehaviour
         {
             timer = 0f;
             spr.flipX = flipSprite;
-            dir.x = dir.x > 0 ? -1 : 1;
+            dir.x = dir.x > 0 ? -3 : 3;
         }
     }
 

@@ -20,7 +20,7 @@ public class move : MonoBehaviour
     {
         flag = true;
         rb = GetComponent<Rigidbody2D>();
-        forceMultiplayer = 8f;
+        forceMultiplayer = 5f;
         jumpMultiplayer = 11f;
     }
 

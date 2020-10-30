@@ -12706,7 +12706,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717107018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.8, y: -0.01, z: 0}
+  m_LocalPosition: {x: 26.2, y: -1.09, z: 0}
   m_LocalScale: {x: 1.2661451, y: 1.2661451, z: 1.2661451}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12864,7 +12864,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1724813864}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 39.67, y: -1.98, z: 0}
+  m_LocalPosition: {x: 42.35, y: -1.83, z: 0}
   m_LocalScale: {x: 1.0043, y: 1.0089675, z: 1.0043}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12883,8 +12883,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1724813865}
-  flag: 0
-  forceMultiplayer: 8
+  flag: 1
+  forceMultiplayer: 5
   jumpMultiplayer: 9
 --- !u!50 &1724813869
 Rigidbody2D:
